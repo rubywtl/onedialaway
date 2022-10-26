@@ -1,4 +1,4 @@
-#One Dial Away
+One Dial Away
 An app designed to help a community of women feel safer in public settings.
 
 What it does 🖥
