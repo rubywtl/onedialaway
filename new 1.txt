@@ -1,0 +1,16 @@
+<?php
+		$sql_query="SELECT * FROM user WHERE username='$username'";
+		$result=mysqli_query($db,$sql_query);
+		
+		echo"<table class='styled-table table-hover'>
+			<thead>
+			<tr>
+			<td>questions</td>
+			</tr>
+			</thead>
+			<tbody>";
+		while($row=mysqli_fetch_assoc($result)){
+			echo "<tr>
+					<td>".$row['questions']."</td>
+					</tr>";
+				}?>
